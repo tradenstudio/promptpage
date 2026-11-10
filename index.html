@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>PromptPage — Any page to a perfect AI prompt</title>
+  <meta name="description" content="Chrome extension that turns any web page, selection or YouTube video into clean Markdown and ready-to-send prompts for ChatGPT, Claude, Gemini and Perplexity." />
+  <link rel="icon" href="img/icon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand" href="./"><img src="img/icon.png" alt="" width="30" height="30" />PromptPage</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <span class="eyebrow">Chrome extension</span>
+          <h1 id="hero-title">Any page, into a <em>perfect</em> AI prompt.</h1>
+          <p class="lead">One click turns articles, docs, selections and YouTube videos into clean Markdown — then sends it to ChatGPT, Claude, Gemini or Perplexity with the instruction you need.</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="CHROME_WEB_STORE_URL">Add to Chrome — free</a>
+            <a class="btn btn-dark" href="#pricing">Get Pro <small>$29 once</small></a>
+          </div>
+          <p class="fine">Runs entirely in your browser. No account. No tracking.</p>
+        </div>
+        <div class="stage" aria-hidden="true">
+          <img class="shot shot-a" src="img/popup-article.png" alt="" width="400" height="510" />
+          <img class="shot shot-b" src="img/popup-youtube.png" alt="" width="400" height="540" />
+        </div>
+      </section>
+
+      <section class="band" id="features" aria-labelledby="features-title">
+        <h2 class="section" id="features-title">Stop copy-pasting messy pages.</h2>
+        <p class="section-lead">Menus, ads, cookie banners and footers waste your AI's context. PromptPage keeps only what matters, formatted the way models read best.</p>
+        <ol class="steps">
+          <li><div><h3>Clean Markdown, not page soup</h3><p>The main article is extracted with headings, lists, tables, links and code blocks intact. Navigation and clutter are dropped.</p></div></li>
+          <li><div><h3>YouTube transcripts with chapters</h3><p>Open a video, click once, get the full transcript grouped by chapter with timestamps — ready to summarize.</p></div></li>
+          <li><div><h3>Send straight to your AI</h3><p>ChatGPT, Claude, Gemini or Perplexity opens in a new tab with your prompt already filled in.</p></div></li>
+          <li><div><h3>Prompt templates</h3><p>Summarize, extract key facts, explain simply, or chat about the page. Pro lets you save your own.</p></div></li>
+          <li><div><h3>Combine many tabs</h3><p>Researching? Merge up to 20 open tabs into one prompt with a source header for each.</p></div></li>
+          <li><div><h3>Token count before you send</h3><p>See the size before you paste. Long pages are trimmed cleanly on a paragraph boundary to your limit.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="band" id="pricing" aria-labelledby="pricing-title">
+        <h2 class="section" id="pricing-title">Free forever. Pro if you live in AI.</h2>
+        <p class="section-lead">One payment. No subscription. Use it on up to 3 browsers.</p>
+        <div class="pricing">
+          <div class="plan">
+            <h3>Free</h3>
+            <div class="price">$0</div>
+            <ul>
+              <li>Page &amp; selection to Markdown</li>
+              <li>5 built-in prompt templates</li>
+              <li>Send to ChatGPT, Claude, Gemini, Perplexity</li>
+              <li>Download as .md</li>
+              <li>YouTube transcript preview (first 3 minutes)</li>
+            </ul>
+            <a class="btn btn-dark" href="CHROME_WEB_STORE_URL">Add to Chrome</a>
+          </div>
+          <div class="plan pro">
+            <h3>Pro</h3>
+            <div class="price">$29 <small>one-time</small></div>
+            <ul>
+              <li>Everything in Free</li>
+              <li>Full YouTube transcripts with chapters</li>
+              <li>Combine up to 20 tabs in one prompt</li>
+              <li>Your own custom prompt templates</li>
+              <li>All future updates</li>
+            </ul>
+            <a class="btn btn-primary" href="CHECKOUT_URL">Buy Pro — $29</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="band faq" id="faq" aria-labelledby="faq-title">
+        <h2 class="section" id="faq-title">Questions</h2>
+        <details><summary>Does PromptPage read or store my data?</summary><p>No. Pages are converted inside your browser. Nothing is sent to us — we have no servers. The only network request is validating your Pro license key with our payment provider.</p></details>
+        <details><summary>How do I activate Pro?</summary><p>After checkout you receive a license key by email. Open PromptPage's settings, paste the key, click Activate. Done.</p></details>
+        <details><summary>Can I use it on more than one computer?</summary><p>Yes, one license works on up to 3 browsers. You can move it from the settings page at any time.</p></details>
+        <details><summary>Which browsers are supported?</summary><p>Chrome, Edge, Brave, Arc, Opera and other Chromium browsers (version 116 or newer).</p></details>
+        <details><summary>What if it's not for me?</summary><p>Request a refund within 14 days of purchase, no questions asked. See the <a href="refund.html">refund policy</a>.</p></details>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Traden Studio · <a href="mailto:tradenstudio@gmail.com">tradenstudio@gmail.com</a></span>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="refund.html">Refunds</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
